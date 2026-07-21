@@ -1,0 +1,11 @@
+class TxtLoader:
+
+    def load(self, file_path):
+
+        with open(file_path, "r", encoding="utf-8") as f:
+            text = f.read()
+
+        return {
+            "content": text,
+            "type": "txt"
+        }

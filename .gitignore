@@ -1,0 +1,25 @@
+# Environment variables
+.env
+
+# Virtual environments
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Vector Database
+db/
+chroma/
+chroma_db/
+
+# Uploaded Documents
+uploads/
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
